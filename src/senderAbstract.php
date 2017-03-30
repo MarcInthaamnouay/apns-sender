@@ -16,7 +16,7 @@ Class ApnsAbstract{
     /**
      *  Constructor 
      */
-    public function __construct($certName = "cert", $passphrase = "Marc0510"){
+    public function __construct($certName = "cert", $passphrase = ""){
        $this->cert = "./cert/".$certName.".pem";
        $this->passphrase = $passphrase;
        $this->socket = false;
